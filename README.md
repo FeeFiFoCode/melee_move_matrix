@@ -23,3 +23,22 @@ We believe that move design can be understood not just by raw numbers, but throu
 - 🛠️ Tooling for custom filtering and export
 
 ---
+melee-move-matrix/
+│
+├── data/ # Frame data and processed move vectors
+│ └── raw/ # Extracted JSONs from community sources
+│
+├── notebooks/ # EDA, clustering, taxonomy notes
+│ └── 01_eda_overview.ipynb
+│
+├── src/ # Python scripts for parsing and analysis
+│ └── parse_framedata.py
+│
+└── README.md
+
+---
+
+## Credits
+
+- Built using community frame data JSONs.
+- Inspired by frameworks from Kira, Kadano, Uncle Punch, and the broader FGC lab scene.
