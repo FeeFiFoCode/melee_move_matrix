@@ -55,3 +55,7 @@ This file tracks project decisions, technical notes, ideas, and long-term goals.
 - Some moves have branching logic (e.g. jab1 → jab2, gentleman)
 - L-cancel, autocancel, and IASA are overlapping mechanics
 - Game & Watch aerials lack L-cancel
+- **Special Moves Omission**: Certain special moves (e.g., Fox's shine) are currently excluded due to their unique data representations in the source JSON files. These moves often use hexadecimal identifiers or lack standard hitbox data, complicating the parsing process.
+
+### Future Work
+- **Special Moves Integration**: Develop enhanced parsing logic to accurately extract and include special moves in the dataset, ensuring comprehensive coverage of all move types.
